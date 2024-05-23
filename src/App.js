@@ -10,7 +10,7 @@ const GenerateList = () => {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    // Sayfa yüklendiğinde bir aktivite al
+    
     fetchActivity();
   }, []);
 
